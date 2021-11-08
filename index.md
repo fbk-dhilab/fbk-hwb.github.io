@@ -34,11 +34,12 @@ At the data stroage level, TreC requires the installation of the following data 
 In the following, the list of the source code projects of the TreC platform is provided, along with the provision conditions.
 
 ### Documentation
-''markup
+```markdown
 The source code repositories are not provided with any documentation on
 what the microservice does, how it is structured, how it can be built,
 how it could be configured, on which external services relies on or how
 to deploy it.
+,,,
 
 ### Build
 No information about the build process is provided. No information on
@@ -123,31 +124,3 @@ The code is published in DHL-FBK GitHub organization:
 |  4       | lib-style               | v0.10.7       | [https://github.com/fbk-hwb/lib-style](https://github.com/fbk-hwb/lib-style) |
 |  5       | lib-assets              | v1.7.3        | [https://github.com/fbk-hwb/lib-assets](https://github.com/fbk-hwb/lib-assets) |
 |  6       | browser-compatibility   | v0.2.3        | [https://github.com/fbk-hwb/lib-browser-compatibility](https://github.com/fbk-hwb/lib-browser-compatibility) |
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fbk-hwb/fbk-hwb.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
