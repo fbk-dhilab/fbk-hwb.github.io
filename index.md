@@ -16,8 +16,6 @@ TreC adopts the classical three-tier architecture:
 - The Application logic tier consists of the set of microservices that implements the backend logic of TreC;
 - The Data storage tier includes the data persistence mechanisms (database servers, file shares, etc.) and the data access layer that encapsulates the persistence mechanisms and exposes the data. 
 
-###
-
 ### TreC Microservices-based application logic tier
 At the application tier level, TreC adopts a stateless microservice architecture, a variant of the service-oriented architecture (SOA) architectural style, which structures an application as a collection of fine-grained services that are highly maintainable and testable, loosely coupled, independently deployable and organized around business capabilities. Microservices communicate through lightweight protocols, and each service has its own database in order to be decoupled from other services. The decomposition of complex applications, like a PHR, using a microservice architecture improves their modularity, making the systems easier to design, understand, develop and test. In fact, this approach allows to parallelize development by enabling small autonomous teams to design, develop, deploy and scale their respective services independently, based on the functionality of the service in the overall architecture. It also enables continuous delivery and deployment by refactoring of individual services.
 
@@ -30,6 +28,9 @@ At the data stroage level, TreC requires the installation of the following data 
 -	[_Redis_](https://redis.io), an in-memory database used as cache to maintain temporary data, like the session tokens and runtime computed data, to improve system performance.
 -	[_MinIO_](https://min.io), an object storage server to handle unstructured data (photos, videos) used by the blob storage microservice to manage files attached to chat messages, personal notes, etc.
 -	[_RabbitMQ_](https://www.rabbitmq.com), a message broker (queue manager) used for asynchronous communication be- tween microservices and between a microservice and the presentation layer. The asyn- chronous communication with the persistence mechanism is convenient for event-based action management (e.g., user data input) and management of peak loads and temporary downtime of a service. 
+
+Documentation
+-------------
 
 ```markdown
 Syntax highlighted code block
