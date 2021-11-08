@@ -30,7 +30,7 @@ At the data stroage level, TreC requires the installation of the following data 
 -	[_RabbitMQ_](https://www.rabbitmq.com), a message broker (queue manager) used for asynchronous communication be- tween microservices and between a microservice and the presentation layer. The asyn- chronous communication with the persistence mechanism is convenient for event-based action management (e.g., user data input) and management of peak loads and temporary downtime of a service. 
 
 ## Trec Source Code
--------------
+
 In the following, the list of the source code projects of the TreC platform is provided, along with the provision conditions.
 
 ### Documentation
@@ -39,7 +39,7 @@ The source code repositories are not provided with any documentation on
 what the microservice does, how it is structured, how it can be built,
 how it could be configured, on which external services relies on or how
 to deploy it.
-,,,
+```
 
 ### Build
 No information about the build process is provided. No information on
