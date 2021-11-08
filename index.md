@@ -31,8 +31,7 @@ At the data stroage level, TreC requires the installation of the following data 
 
 ## Trec Source Code
 
-In the following, the list of the source code projects of the TreC platform is provided, along with the provision conditions.
-
+In this section the list of the source code projects of the TreC platform is provided, along with the provision conditions. Code is licensed under EUPL 1.2 or later.
 ### Documentation
 
 The source code repositories are provided without any documentation on
