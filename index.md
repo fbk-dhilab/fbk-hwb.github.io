@@ -34,24 +34,24 @@ At the data stroage level, TreC requires the installation of the following data 
 In the following, the list of the source code projects of the TreC platform is provided, along with the provision conditions.
 
 ### Documentation
-```markdown
-The source code repositories are not provided with any documentation on
+
+The source code repositories are provided without any documentation on
 what the microservice does, how it is structured, how it can be built,
 how it could be configured, on which external services relies on or how
 to deploy it.
-```
 
 ### Build
 No information about the build process is provided. No information on
 which libraries each microservice relies on is provided.
 
+The minimum required version to compile/run the code of a microservice
+is Java 8. No guarantees can be given regarding the operation with any
+greater version of Java.
+
 ### Support and Updates
 
 No further development support, updates or maintenance is provided after
 the first commit.
-The minimum required version to compile/run the code of a microservice
-is Java 8. No guarantees can be given regarding the operation with any
-greater version of Java.
 
 ### Organization
 
