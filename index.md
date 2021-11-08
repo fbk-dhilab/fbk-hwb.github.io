@@ -34,9 +34,9 @@ At the data stroage level, TreC requires the installation of the following data 
 In this section the list of the source code projects of the TreC platform is provided, along with the provision conditions. Code is licensed under EUPL 1.2 or later.
 ### Documentation
 
-The source code repositories are provided without any documentation on
-what the microservice does, how it is structured, how it can be built,
-how it could be configured, on which external services relies on or how
+The source code repositories are provided without any detailed documentation on the microservice functionalities, 
+and wtihout any information on how it is structured, how it can be built,
+how it could be configured, on which external services relies on, and how
 to deploy it.
 
 ### Build
