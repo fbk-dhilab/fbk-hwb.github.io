@@ -2,7 +2,7 @@
 
 This is the repository containing the source code of the site that provides information about TreC.
 
-## Setup 
+## Setup
 
 Run:
 
