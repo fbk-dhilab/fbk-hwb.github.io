@@ -1,4 +1,4 @@
-Example of helm values.yaml file for deployement of TreC microservices in Kubernetes
+## Example of helm values.yaml file for deployement of TreC microservices in Kubernetes
 ```
 global:
  mariadb:
