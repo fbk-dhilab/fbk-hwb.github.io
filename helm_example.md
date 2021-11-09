@@ -8,16 +8,13 @@ global:
     dbPrefix: <db prefix>
  mongodb:
     atlasEnabled: true
-
  ingress:
     hosts:
     - name: <host address
       tlsSecretName: <tls secret name>
 
-
 audit-logger:
  env:
- 
    # Connection to the MariaDB database
    - name: DB_URL
      value: mariadb:<microservice db url>
@@ -41,11 +38,9 @@ blob-storage:
       secretKeyRef:
         name: blob-storage-db-credentials
         key: password
-
   # Activate Spring profiles
   - name: SPRING_PROFILES_ACTIVE
     value: "jsonlog,production"
-
   # Connection to Minio inside Kubernetes
   - name: TREC_BLOB_STORAGE_MINIO_ENDPOINT
     value: http://minio:9000
@@ -66,7 +61,6 @@ chat:
       secretKeyRef:
         name: chat-db-credentials
         key: password
-
   # RabbitMQ connection
   - name: RABBITMQ_HOST
     value: rabbitmq
@@ -98,7 +92,6 @@ clinical-data:
       secretKeyRef:
         name: clinical-data-mongodb-credentials
         key: password
-
   # RabbitMQ connection
   - name: RABBITMQ_HOST
     value: rabbitmq
@@ -114,7 +107,6 @@ clinical-data:
       secretKeyRef:
         name: clinical-data-rabbitmq-credentials
         key: password
-
  mongodb-init:
     password: <password> 	# Password for the database user
     atlasEnabled: true
@@ -139,7 +131,6 @@ dictionary:
   # Enable Java remote debug port
   - name: JAVA_OPTIONS
     value: -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005,quiet=y
-
   # Connection to the MariaDB database
   - name: DB_URL
     value: mariadb:<microservice db url>
@@ -169,7 +160,6 @@ drug-store:
 
 email:
  env:
-
   # RabbitMQ connection
   - name: RABBITMQ_HOST
     value: rabbitmq
@@ -205,13 +195,11 @@ password-authenticator:
       secretKeyRef:
         name: password-authenticator-db-credentials
         key: password
-
   # Connection to Redis
   - name: SPRING_REDIS_HOST
     value: redis
   - name: SPRING_REDIS_PORT
     value: <redis port>
-
   # Spring mail configuration
   - name: SPRING_MAIL_HOST
     value: <spring mail host>
@@ -219,7 +207,6 @@ password-authenticator:
     value: <spring mail port>
   - name: SPRING_MAIL_PROPERTIES_MAIL_SMTP_SSL_ENABLE
     value: <true>|<false>
-
   # App properties
   - name: TREC_PASSWORD_AUTHENTICATOR_BASE_URL
     value:<password authenticator url>
@@ -311,7 +298,6 @@ personal-data:
       secretKeyRef:
         name: personal-data-mongodb-credentials
         key: password
-
   # RabbitMQ connection
   - name: RABBITMQ_HOST
     value: rabbitmq
@@ -327,7 +313,6 @@ personal-data:
       secretKeyRef:
         name: personal-data-rabbitmq-credentials
         key: password
-
  mongodb-init:
     password: <user db password> 	# Password for the database user
     atlasEnabled: true
@@ -346,17 +331,14 @@ phonecode-authenticator:
       secretKeyRef:
         name: phonecode-authenticator-db-credentials
         key: password
-
   # Activate Spring profiles
   - name: SPRING_PROFILES_ACTIVE
-    value: "jsonlog,production"
-    
+    value: "jsonlog,production" 
   - name: TREC_SUPPORTED_APPS
     value: <id app 1>,…,<id app n>
 
 push:
  env:
-
     # Connection string to MongoDB
   - name: MONGO_CONNECTION_STRING
     value: <connection string>
@@ -369,7 +351,6 @@ push:
       secretKeyRef:
         name: push-mongodb-credentials
         key: password
-
   # RabbitMQ connection
   - name: RABBITMQ_HOST
     value: rabbitmq
@@ -385,11 +366,9 @@ push:
       secretKeyRef:
         name: push-rabbitmq-credentials
         key: password
-
   # Firebase key
   - name: FIREBASE_KEY
     value: <key value>
-
  mongodb-init:
     password: <db user password>      # Password for the database user
     atlasEnabled: true
@@ -409,7 +388,6 @@ reasoner:
       secretKeyRef:
         name: reasoner-mongodb-credentials
         key: password
-
   # RabbitMQ connection
   - name: RABBITMQ_HOST
     value: rabbitmq
@@ -425,7 +403,6 @@ reasoner:
       secretKeyRef:
         name: reasoner-rabbitmq-credentials
         key: password
-
  mongodb-init:
     password: <db user password> 	# Password for the database user
     atlasEnabled: true
@@ -457,7 +434,6 @@ session-manager:
     value: <private key path>
   - name: TOKEN_TREC_PUBLIC_KEY_PATH
     value: <public key path>
-
   # Connection to the MariaDB database
   - name: DB_URL
     value: mariadb:<microservice db url>
@@ -490,7 +466,6 @@ video-chat:
       secretKeyRef:
         name: video-chat-rabbitmq-credentials
         key: password
-
   # Jitsi config
   - name: TREC_VIDEO_CHAT_JITSI_SERVER_URL
     value: <jitsi server url>
@@ -500,21 +475,16 @@ video-chat:
     value: <jitsi app id>
   - name: TREC_VIDEO_CHAT_JITSI_ISSUER_ID
     value: <jitsi issuer id>
-
   # App config
   - name: TREC_VIDEO_CHAT_APPS_TO_NOTIFY
     value: <id app 1>,…,<id app n>
-
   # Activate Spring profiles
   - name: SPRING_PROFILES_ACTIVE
     value: "jsonlog"
-
   # App properties
   - name: TREC_VIDEO_CHAT_ALLOW_JOIN_MEETING_BEFORE_MIN
     value: <n minutes> 	# Allow to join meetings n minutes before the startTime
-
  mongodb-init:
     password: <db user password>      # Password for the database user
     atlasEnabled: true
-
 ```
