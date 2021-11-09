@@ -69,7 +69,10 @@ architecture improves their modularity, making the systems easier to design, und
 test. In fact, this approach allows to parallelize development by enabling small autonomous teams to
 design, develop, deploy and scale their respective services independently, based on the
 functionality of the service in the overall architecture. It also enables continuous delivery and
-deployment by refactoring of individual services.
+deployment by refactoring of individual services. 
+The communication mechanism between microservices in TreC is twofold:
+- REST API for synchronous communication;
+- message broker-based (Rabbit MQ) for asynchronous communications (notifications, updates, etc.). 
 
 The implementation of TreC available here consists of 20 back-end microservices.
 
