@@ -111,7 +111,7 @@ the provision conditions. Code is licensed under EUPL 1.2 or later.
 The source code repositories are provided without any detailed documentation on the microservice
 functionalities, how it is structured, how it can be built, how it
 could be configured, on which external services relies on, and how to deploy it. An example of the 
-file _helm_ for deploying the microservices in Kubernetes is available [here](https://fbk-hwb.github.io/helm_example.md).
+file _helm_ for deploying the microservices in Kubernetes is available [here](helm_example.md).
 
 ### Build
 
