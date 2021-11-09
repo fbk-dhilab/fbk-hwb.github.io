@@ -1,4 +1,4 @@
-~~~
+```
 global:
  mariadb:
      # Use external MariaDB in Azure
@@ -516,4 +516,4 @@ video-chat:
     password: <db user password>      # Password for the database user
     atlasEnabled: true
 
-~~~
+```
