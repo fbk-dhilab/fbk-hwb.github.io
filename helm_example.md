@@ -1,5 +1,12 @@
+---
+layout: default
+title: Helm Example
+nav_order: 2
+---
+
 ## Example of helm values.yaml file for deployement of TreC microservices in Kubernetes
-```
+
+```yaml
 global:
  mariadb:
      # Use external MariaDB in Azure

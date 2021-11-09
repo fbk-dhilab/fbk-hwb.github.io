@@ -32,6 +32,12 @@ markdown: kramdown
 remote_theme: pmarsceill/just-the-docs
 theme: just-the-docs # jekyll-theme-merlot
 color_scheme: trec
+
+# Aux links for the upper right navigation
+aux_links:
+  "TreC on GitHub":
+    - "//github.com/fbk-hwb"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
