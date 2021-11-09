@@ -1,4 +1,12 @@
+<!-- ---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+--- -->
+
 # The TreC Project source code repository
+
 This repository contains the source code of the components of TreC (Trentino Citizens Clinical Record), a Personal Health Record platform that provides citizens with a repository to manage their own health information and data and a set of services to support the provision of assistance and care by helthcare professionals (e.g., monitoring of disease-related parameters by healthcare professionals). The project has been developed and implemented in three main stages (2008-2011, 2012-2014, 2016-2018) thanks to the concerted efforts of three Institutions: the Provincia Autonoma di Trento – PAT that defines and implements the health policy at local level, the regional healthcare trust Azienda Provinciale per i Servizi Sanitari - APSS the Fondazione Bruno Kessler – FBK, one of the main research stakeholders in the Trentino region. Over the years, those three institutions have made large investments in developing data infrastructures and strategies to support a common mission, that is, improving health and well being services provided to the general population following a systematic and sustainable approach, through the development and implementation of the TreC platform.
 
 The TreC Platform is based on the concept of Personal Health Record (PHR) developed and defined by Markle Foundation1, the charitable organization that works to real- ize the potential of emerging communications media and information technology that address public needs. According to this definition, the PHR is "...an Internet-based set of tools that al- lows people to access and coordinate their lifelong information and make appropriate parts of it available to those who need it. PHRs offer an integrated and comprehensive view of health in- formation, including information people generate themselves [...], information from doctors [...] and information from their pharmacies and insurance companies." This definition stresses the importance of (i) an active role of the citizen/patient in managing his/her own PHR on one side and (ii) the role of the PHR platform as communication hub among different stakeholders. 
