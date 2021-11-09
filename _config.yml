@@ -29,9 +29,9 @@ logo: assets/trec-logo.svg
 # Build settings
 markdown: kramdown
 
-# theme_remote: pmarsceill/just-the-docs
-# theme: just-the-docs
-theme: jekyll-theme-merlot
+theme_remote: pmarsceill/just-the-docs
+theme: just-the-docs # jekyll-theme-merlot
+color_scheme: trec
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
