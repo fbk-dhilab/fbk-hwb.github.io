@@ -108,6 +108,8 @@ At the data stroage level, TreC requires the installation of the following data 
 In this section the list of the source code projects of the TreC platform is provided, along with
 the provision conditions. Code is licensed under EUPL 1.2 or later.
 
+**The acces to the source code repositories is restricted to people invited by FBK. Please, requesto access to trec-clouds@fbk.eu**
+
 ### Documentation
 
 The source code repositories are provided without any detailed documentation on the microservice
