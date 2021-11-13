@@ -88,7 +88,7 @@ At the data storage level, TreC requires the installation of the following data 
   Oracle.
 - [_MongoDB_](https://www.mongodb.com/), a non-SQL document-oriented database, used mainly for
   storing clinical data. This choice is motivated by the flexibility offered by document-oriented
-  databases in rep- resenting heterogeneous data models, typical of clinical data and personal
+  databases in representing heterogeneous data models, typical of clinical data and personal
   observations. Moreover, MongoDB stores data in JSON-like documents, meaning fields can vary from
   document to document and data structure can be changed over time without impacting on the core
   structure of stored data.
@@ -98,7 +98,7 @@ At the data storage level, TreC requires the installation of the following data 
   used by the blob storage microservice to manage files attached to chat messages, personal notes,
   etc.
 - [_RabbitMQ_](https://www.rabbitmq.com), a message broker (queue manager) used for asynchronous
-  communication be- tween microservices and between a microservice and the presentation layer. The
+  communication between microservices and between a microservice and the presentation layer. The
   asynchronous communication with the persistence mechanism is convenient for event-based action
   management (e.g., user data input) and management of peak loads and temporary downtime of a
   service.
@@ -132,7 +132,7 @@ No further development support, updates or maintenance is provided after the fir
 ### Organization
 
 The code is published in DHL-FBK GitHub organization:
-[Digital Health Lab - FBK](https://github.com/fbk-hwb)
+[Digital Health Lab - FBK](https://github.com/fbk-hwb).
 
 ### List of backend microservices
 
