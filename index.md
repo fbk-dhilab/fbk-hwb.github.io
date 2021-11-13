@@ -9,23 +9,23 @@ nav_order: 1
 This repository contains the source code of the components of TreC (Trentino Citizens Clinical
 Record), a Personal Health Record platform that provides citizens with a repository to manage their
 own health information and data and a set of services to support the provision of assistance and
-care by helthcare professionals (e.g., monitoring of disease-related parameters by healthcare
+care by healthcare professionals (e.g., monitoring of disease-related parameters by healthcare
 professionals). The project has been developed and implemented in three main stages (2008-2011,
 2012-2014, 2016-2018) thanks to the concerted efforts of three Institutions: the Provincia Autonoma
 di Trento – PAT that defines and implements the health policy at local level, the regional
 healthcare trust Azienda Provinciale per i Servizi Sanitari - APSS the Fondazione Bruno Kessler –
 FBK, one of the main research stakeholders in the Trentino region. Over the years, those three
 institutions have made large investments in developing data infrastructures and strategies to
-support a common mission, that is, improving health and well being services provided to the general
+support a common mission, that is, improving health and well-being services provided to the general
 population following a systematic and sustainable approach, through the development and
 implementation of the TreC platform.
 
 The TreC Platform is based on the concept of Personal Health Record (PHR) developed and defined by
-Markle Foundation1, the charitable organization that works to real- ize the potential of emerging
+Markle Foundation1, the charitable organization that works to realize the potential of emerging
 communications media and information technology that address public needs. According to this
-definition, the PHR is "...an Internet-based set of tools that al- lows people to access and
+definition, the PHR is "...an Internet-based set of tools that allows people to access and
 coordinate their lifelong information and make appropriate parts of it available to those who need
-it. PHRs offer an integrated and comprehensive view of health in- formation, including information
+it. PHRs offer an integrated and comprehensive view of health information, including information
 people generate themselves [...], information from doctors [...] and information from their
 pharmacies and insurance companies." This definition stresses the importance of (i) an active role
 of the citizen/patient in managing his/her own PHR on one side and (ii) the role of the PHR platform
@@ -78,12 +78,12 @@ The implementation of TreC available here consists of 20 back-end microservices.
 
 ### TreC data storage tier
 
-At the data stroage level, TreC requires the installation of the following data management servers:
+At the data storage level, TreC requires the installation of the following data management servers:
 
 - [_MariaDB_](https://mariadb.org/), a relational (SQL) DB, used by the authorization system, which
   is a fundamental microservice for ensuring the compliance with the personal data protection code,
   and by other services that make extensive use of recursive queries and JOIN operator. Being one of
-  the most time consuming and data-intensive operations, relational databases, which effi- ciently
+  the most time-consuming and data-intensive operations, relational databases, which efficiently
   implement these operations, are needed. Besides MariaDB, currently the platform supports also
   Oracle.
 - [_MongoDB_](https://www.mongodb.com/), a non-SQL document-oriented database, used mainly for
@@ -99,7 +99,7 @@ At the data stroage level, TreC requires the installation of the following data 
   etc.
 - [_RabbitMQ_](https://www.rabbitmq.com), a message broker (queue manager) used for asynchronous
   communication be- tween microservices and between a microservice and the presentation layer. The
-  asyn- chronous communication with the persistence mechanism is convenient for event-based action
+  asynchronous communication with the persistence mechanism is convenient for event-based action
   management (e.g., user data input) and management of peak loads and temporary downtime of a
   service.
 
@@ -108,7 +108,7 @@ At the data stroage level, TreC requires the installation of the following data 
 In this section the list of the source code projects of the TreC platform is provided, along with
 the provision conditions. Code is licensed under EUPL 1.2 or later.
 
-**The acces to the source code repositories is restricted to people invited by FBK. Please, requesto access to [trec-clouds@fbk.eu](mailto:trec-clouds@fbk.eu)**
+**The acces to the source code repositories is restricted to people invited by FBK. Please, request access to [trec-clouds@fbk.eu](mailto:trec-clouds@fbk.eu)**
 
 ### Documentation
 
