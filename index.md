@@ -203,6 +203,8 @@ The code is published in DHL-FBK GitHub organization:
 
 ### List of app plugins
 
+---
+
 | **\#** | **Project**          | **Version** | **Link**                                                                                       |
 | ------ | --------------       | ----------- | ---------------------------------------------------------------------------------------------- |
 | 1      | app-plugin-jitsi     | v0.5.1      | [https://github.com/fbk-hwb/app-plugin-jitsi](https://github.com/fbk-hwb/app-plugin-jitsi)                     |
