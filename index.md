@@ -201,7 +201,7 @@ The code is published in DHL-FBK GitHub organization:
 | 5      | lib-assets            | v1.7.3      | [https://github.com/fbk-hwb/lib-assets](https://github.com/fbk-hwb/lib-assets)                               |
 | 6      | browser-compatibility | v0.2.3      | [https://github.com/fbk-hwb/lib-browser-compatibility](https://github.com/fbk-hwb/lib-browser-compatibility) |
 
-## List of app plugins
+### List of app plugins
 
 | **\#** | **Project**          | **Version** | **Link**                                                                                       |
 | ------ | --------------       | ----------- | ---------------------------------------------------------------------------------------------- |
