@@ -29,7 +29,8 @@ logo: assets/trec-logo.svg
 # Build settings
 markdown: kramdown
 
-theme: just-the-docs # jekyll-theme-merlot
+remote_theme: just-the-docs/just-the-docs
+# theme: just-the-docs # jekyll-theme-merlot
 color_scheme: trec
 
 # Aux links for the upper right navigation
