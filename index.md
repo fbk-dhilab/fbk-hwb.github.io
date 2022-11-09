@@ -200,3 +200,10 @@ The code is published in DHL-FBK GitHub organization:
 | 4      | lib-style             | v0.10.7     | [https://github.com/fbk-hwb/lib-style](https://github.com/fbk-hwb/lib-style)                                 |
 | 5      | lib-assets            | v1.7.3      | [https://github.com/fbk-hwb/lib-assets](https://github.com/fbk-hwb/lib-assets)                               |
 | 6      | browser-compatibility | v0.2.3      | [https://github.com/fbk-hwb/lib-browser-compatibility](https://github.com/fbk-hwb/lib-browser-compatibility) |
+
+## List of app plugins
+
+| **\#** | **Project**          | **Version** | **Link**                                                                                       |
+| ------ | --------------       | ----------- | ---------------------------------------------------------------------------------------------- |
+| 1      | app-plugin-jitsi     | v0.5.1      | [https://github.com/fbk-hwb/app-plugin-jitsi](https://github.com/fbk-hwb/app-plugin-jitsi)                     |
+| 2      | app-plugin-healthkit | v1.1.1      | [https://github.com/fbk-hwb/app-plugin-healthkit](https://github.com/fbk-hwb/app-plugin-healthkit) |
