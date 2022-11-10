@@ -177,6 +177,7 @@ The code is published in DHL-FBK GitHub organization:
 | 8      | lib-server-starter     | v1.5.2      | [https://github.com/fbk-hwb/lib-server-starter](https://github.com/fbk-hwb/lib-server-starter)         |
 | 9      | lib-server-utils       | v1.2.1      | [https://github.com/fbk-hwb/lib-server-utils](https://github.com/fbk-hwb/lib-server-utils)             |
 | 10     | lib-server-websecurity | v1.1.5      | [https://github.com/fbk-hwb/lib-server-websecurity](https://github.com/fbk-hwb/lib-server-websecurity) |
+| 11     | oracle-JDBC            | -           | [https://github.com/fbk-hwb/oracle-JDBC](https://github.com/fbk-hwb/oracle-JDBC)                       |
 
 ### List of frontend projects
 
