@@ -206,7 +206,16 @@ The code is published in DHL-FBK GitHub organization:
 
 ---
 
-| **\#** | **Project**          | **Version** | **Link**                                                                                       |
-| ------ | --------------       | ----------- | ---------------------------------------------------------------------------------------------- |
-| 1      | app-plugin-jitsi     | v0.5.1      | [https://github.com/fbk-hwb/app-plugin-jitsi](https://github.com/fbk-hwb/app-plugin-jitsi)                     |
-| 2      | app-plugin-healthkit | v1.1.1      | [https://github.com/fbk-hwb/app-plugin-healthkit](https://github.com/fbk-hwb/app-plugin-healthkit) |
+| **\#** | **Project**          | **Version** | **Link**                                                                                                      |
+| ------ | --------------       | ----------- | ------------------------------------------------------------------------------------------------------------- |
+| 1      | app-plugin-jitsi     | v0.5.1      | [https://github.com/fbk-hwb/app-plugin-jitsi](https://github.com/fbk-hwb/app-plugin-jitsi)                    |
+| 2      | app-plugin-healthkit | v1.1.1      | [https://github.com/fbk-hwb/app-plugin-healthkit](https://github.com/fbk-hwb/app-plugin-healthkit)            |
+
+
+### Other
+
+---
+
+| **\#** | **Project**          | **Version** | **Link**                                                                                                      |
+| ------ | --------------       | ----------- | ------------------------------------------------------------------------------------------------------------- |
+| 1      | documentation        | -           | [https://github.com/fbk-hwb/documentation](https://github.com/fbk-hwb/documentation)                          |
