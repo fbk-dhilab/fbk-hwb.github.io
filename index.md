@@ -140,26 +140,26 @@ The code is published in DHL-FBK GitHub organization:
 
 | **\#** | **Project**             | **Version** | **Link**                                                                                                       |
 | ------ | ----------------------- | ----------- | -------------------------------------------------------------------------------------------------------------- |
-| 1      | audit-logger            | v0.36.2     | [https://github.com/fbk-hwb/ms-audit-logger](https://github.com/fbk-hwb/ms-audit-logger)                       |
-| 2      | blob-storage            | v0.4.0      | [https://github.com/fbk-hwb/ms-blob-storage](https://github.com/fbk-hwb/ms-blob-storage)                       |
-| 3      | chat                    | v0.11.2     | [https://github.com/fbk-hwb/ms-chat](https://github.com/fbk-hwb/ms-chat)                                       |
-| 4      | clinical-data           | v1.6.21     | [https://github.com/fbk-hwb/ms-clinical-data](https://github.com/fbk-hwb/ms-clinical-data)                     |
+| 1      | audit-logger            | v0.36.13     | [https://github.com/fbk-hwb/ms-audit-logger](https://github.com/fbk-hwb/ms-audit-logger)                       |
+| 2      | blob-storage            | v1.0.0      | [https://github.com/fbk-hwb/ms-blob-storage](https://github.com/fbk-hwb/ms-blob-storage)                       |
+| 3      | chat                    | v0.11.6     | [https://github.com/fbk-hwb/ms-chat](https://github.com/fbk-hwb/ms-chat)                                       |
+| 4      | clinical-data           | v1.9.1     | [https://github.com/fbk-hwb/ms-clinical-data](https://github.com/fbk-hwb/ms-clinical-data)                     |
 | 5      | cloud-data-collector    | v0.0.46     | [https://github.com/fbk-hwb/ms-cloud-data-collector](https://github.com/fbk-hwb/ms-cloud-data-collector)       |
-| 6      | dictionary              | v1.0.10     | [https://github.com/fbk-hwb/ms-dictionary](https://github.com/fbk-hwb/ms-dictionary)                           |
-| 7      | discovery               | v0.1.2      | [https://github.com/fbk-hwb/ms-discovery](https://github.com/fbk-hwb/ms-discovery)                             |
-| 8      | drug-store              | v0.6.1      | [https://github.com/fbk-hwb/ms-drug-store](https://github.com/fbk-hwb/ms-drug-store)                           |
-| 9      | email                   | v0.4.2      | [https://github.com/fbk-hwb/ms-email](https://github.com/fbk-hwb/ms-email)                                     |
-| 10     | password-authenticator  | v0.17.4     | [https://github.com/fbk-hwb/ms-password-authenticator](https://github.com/fbk-hwb/ms-password-authenticator)   |
-| 11     | perseo-messaging        | v0.7.4      | [https://github.com/fbk-hwb/ms-perseo-messaging](https://github.com/fbk-hwb/ms-perseo-messaging)               |
-| 12     | perseo-proempower       | v1.1.4      | [https://github.com/fbk-hwb/ms-perseo-proempower](https://github.com/fbk-hwb/ms-perseo-proempower)             |
-| 13     | personal-data           | v0.10.0     | [https://github.com/fbk-hwb/ms-personal-data](https://github.com/fbk-hwb/ms-personal-data)                     |
-| 14     | phonecode-authenticator | v0.2.3      | [https://github.com/fbk-hwb/ms-phonecode-authenticator](https://github.com/fbk-hwb/ms-phonecode-authenticator) |
-| 15     | push                    | v0.14.1     | [https://github.com/fbk-hwb/ms-push](https://github.com/fbk-hwb/ms-push)                                       |
-| 16     | reasoner                | v0.10.11    | [https://github.com/fbk-hwb/ms-reasoner](https://github.com/fbk-hwb/ms-reasoner)                               |
-| 17     | registry                | v0.15.3     | [https://github.com/fbk-hwb/ms-registry](https://github.com/fbk-hwb/ms-registry)                               |
-| 18     | scheduler               | v0.1.4      | [https://github.com/fbk-hwb/ms-scheduler](https://github.com/fbk-hwb/ms-scheduler)                             |
-| 19     | session-manager         | v0.40.4     | [https://github.com/fbk-hwb/ms-session-manager](https://github.com/fbk-hwb/ms-session-manager)                 |
-| 20     | video-chat              | v0.5.0      | [https://github.com/fbk-hwb/ms-video-chat](https://github.com/fbk-hwb/ms-video-chat)                           |
+| 6      | dictionary              | v2.0.3     | [https://github.com/fbk-hwb/ms-dictionary](https://github.com/fbk-hwb/ms-dictionary)                           |
+| 7      | discovery               | v0.3.1      | [https://github.com/fbk-hwb/ms-discovery](https://github.com/fbk-hwb/ms-discovery)                             |
+| 8      | drug-store              | v2.0.0      | [https://github.com/fbk-hwb/ms-drug-store](https://github.com/fbk-hwb/ms-drug-store)                           |
+| 9      | email                   | v0.5.4      | [https://github.com/fbk-hwb/ms-email](https://github.com/fbk-hwb/ms-email)                                     |
+| 10     | password-authenticator  | v2.1.3     | [https://github.com/fbk-hwb/ms-password-authenticator](https://github.com/fbk-hwb/ms-password-authenticator)   |
+| 11     | perseo-messaging        | v0.8.0      | [https://github.com/fbk-hwb/ms-perseo-messaging](https://github.com/fbk-hwb/ms-perseo-messaging)               |
+| 12     | perseo-proempower       | v2.1.2      | [https://github.com/fbk-hwb/ms-perseo-proempower](https://github.com/fbk-hwb/ms-perseo-proempower)             |
+| 13     | personal-data           | v0.10.5     | [https://github.com/fbk-hwb/ms-personal-data](https://github.com/fbk-hwb/ms-personal-data)                     |
+| 14     | phonecode-authenticator | v1.0.0      | [https://github.com/fbk-hwb/ms-phonecode-authenticator](https://github.com/fbk-hwb/ms-phonecode-authenticator) |
+| 15     | push                    | v1.0.4     | [https://github.com/fbk-hwb/ms-push](https://github.com/fbk-hwb/ms-push)                                       |
+| 16     | reasoner                | v0.10.14    | [https://github.com/fbk-hwb/ms-reasoner](https://github.com/fbk-hwb/ms-reasoner)                               |
+| 17     | registry                | v1.2.2     | [https://github.com/fbk-hwb/ms-registry](https://github.com/fbk-hwb/ms-registry)                               |
+| 18     | scheduler               | v0.1.6      | [https://github.com/fbk-hwb/ms-scheduler](https://github.com/fbk-hwb/ms-scheduler)                             |
+| 19     | session-manager         | v0.44.25     | [https://github.com/fbk-hwb/ms-session-manager](https://github.com/fbk-hwb/ms-session-manager)                 |
+| 20     | video-chat              | v1.2.1      | [https://github.com/fbk-hwb/ms-video-chat](https://github.com/fbk-hwb/ms-video-chat)                           |
 
 ### List of backend libraries
 
@@ -173,10 +173,10 @@ The code is published in DHL-FBK GitHub organization:
 | 4      | lib-security           | v0.19.0     | [https://github.com/fbk-hwb/lib-security](https://github.com/fbk-hwb/lib-security)                     |
 | 5      | lib-server             | v0.71.7     | [https://github.com/fbk-hwb/lib-server](https://github.com/fbk-hwb/lib-server)                         |
 | 6      | lib-service-names      | v1.15.0     | [https://github.com/fbk-hwb/lib-service-names](https://github.com/fbk-hwb/lib-service-names)           |
-| 7      | lib-perseo-lib-base    | v0.7.27     | [https://github.com/fbk-hwb/lib-perseo-lib-base](https://github.com/fbk-hwb/lib-perseo-lib-base)       |
-| 8      | lib-server-starter     | v1.5.2      | [https://github.com/fbk-hwb/lib-server-starter](https://github.com/fbk-hwb/lib-server-starter)         |
-| 9      | lib-server-utils       | v1.2.1      | [https://github.com/fbk-hwb/lib-server-utils](https://github.com/fbk-hwb/lib-server-utils)             |
-| 10     | lib-server-websecurity | v1.1.5      | [https://github.com/fbk-hwb/lib-server-websecurity](https://github.com/fbk-hwb/lib-server-websecurity) |
+| 7      | lib-perseo-lib-base    | v0.7.44     | [https://github.com/fbk-hwb/lib-perseo-lib-base](https://github.com/fbk-hwb/lib-perseo-lib-base)       |
+| 8      | lib-server-starter     | v2.2.0      | [https://github.com/fbk-hwb/lib-server-starter](https://github.com/fbk-hwb/lib-server-starter)         |
+| 9      | lib-server-utils       | v2.0.0      | [https://github.com/fbk-hwb/lib-server-utils](https://github.com/fbk-hwb/lib-server-utils)             |
+| 10     | lib-server-websecurity | v2.0.0      | [https://github.com/fbk-hwb/lib-server-websecurity](https://github.com/fbk-hwb/lib-server-websecurity) |
 | 11     | oracle-JDBC            | -           | [https://github.com/fbk-hwb/oracle-JDBC](https://github.com/fbk-hwb/oracle-JDBC)                       |
 
 ### List of frontend projects
