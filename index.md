@@ -160,6 +160,9 @@ The code is published in DHL-FBK GitHub organization:
 | 18     | scheduler               | v0.1.6      | [https://github.com/fbk-hwb/ms-scheduler](https://github.com/fbk-hwb/ms-scheduler)                             |
 | 19     | session-manager         | v0.44.25     | [https://github.com/fbk-hwb/ms-session-manager](https://github.com/fbk-hwb/ms-session-manager)                 |
 | 20     | video-chat              | v1.2.1      | [https://github.com/fbk-hwb/ms-video-chat](https://github.com/fbk-hwb/ms-video-chat)                           |
+| 21     | webauthn-authenticator              | v1.0.5      | [https://github.com/fbk-hwb/ms-webauthn-authenticator](https://github.com/fbk-hwb/ms-webauthn-authenticator)                           |
+| 22     | apss-proxy              | v2.1.1      | [https://github.com/fbk-hwb/ms-apss-proxy](https://github.com/fbk-hwb/ms-apss-proxy)                           |
+
 
 ### List of backend libraries
 
